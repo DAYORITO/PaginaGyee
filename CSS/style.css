@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200&display=swap');
+h1{
+    color:rgb(241, 241, 53);
+    text-align: center;
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+.fondo{
+    background:linear-gradient(rgba(17, 24, 41, 0.75), rgba(24, 28, 34, 0.75)), url('/imagenes/Gyeemain.png') no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Stick No Bills', sans-serif;
+    display: flex;
+    align-content: center;
+    flex-flow: column;
+    font-size: calc(1rem);
+
+}
+.fuente{
+    font-size: 20px;
+}
+ul{
+    list-style: none;
+}
+nav a{
+    color:rgb(175, 164, 187);
+    text-decoration: none;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: large;
+}
+header{
+    position: fixed;
+    width: 99%;
+
+}
+header nav{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    background-color: rgba(118, 208, 211,0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+nav img{
+    height: 80px;
+    width: 200px;
+    margin-right: 40%;
+}
+nav ul{
+    display: flex;
+    justify-content:center;
+
+}
+nav li{
+    margin: 10%;
+}
+nav li:hover{
+    color: black;
+    backdrop-filter: blur(10px);
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    backdrop-filter: blur(5%);
+    color: bisque;
+}
+.principal{
+    display: flex;
+    flex-flow: column;
+}
+#form{
+    display: flex;
+    background-color: rgb(49, 61, 69);
+}
+.principal img{
+    padding-top: 90px;
+    align-self: center;
+    height: 400px;
+    width: 950px;
+}
+
+
+.principal div img{
+
+    width:400px ;
+    height:200px ;
+}
+footer{
+    display: flex;
+    background-color: rgba(42, 88, 73,0.3);
+    backdrop-filter: blur(10px);
+    align-items: center;
+    flex-flow: row;
+    justify-content: space-around;
+}
+footer img{
+    height:50px ;
+    width: 200px;
+    margin-bottom: 12px;
+}
+footer div{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+main div{
+    display: flex;
+    flex-flow: column-reverse;
+    
+    
+    
+}
+main section{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+    background-color: rgba(17, 37, 37,0.5);
+    
+}
+#footimg{
+    display: flex;
+    flex-flow: column;
+}
+#redes{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+#footimg img{
+    height: auto;
+    width: 45px;
+    
+}
+/*Todo galeria*/
+
+.body_galeria{
+    background:linear-gradient(rgba(0, 0, 0, 0.75), rgba(34, 37, 41, 0.75)), url('/imagenes/fondo2.jpg') no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Stick No Bills', sans-serif;
+    display: flex;
+    align-content: center;
+    flex-flow: column;
+    font-size: calc(1rem);
+}
+.body_galeria h1{
+    margin-top: 6rem;
+}
+.galeria{
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 2rem;
+
+}
+.galeria a img{
+    width: 45vw;
+    border: 2px solid;
+}
+.galeria a img:hover{
+    transform:scale(1.1);
+    border: 4px solid rgba(0,160,80,0);
+    border-color: rgb(10, 10, 10);
+}
+/* Todo personajes*/
+
+
+
+#Cuadrop{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+
+}
+#Cuadrop a{
+    text-decoration: none;
+    color: beige;
+}
+#Cuadrop a:hover{
+    color: rgb(23, 10, 10);
+}
+.Person{
+    border: 1px rgba(248, 139, 139, 0.378) solid;
+    border-radius: 5px;
+    width: 250px;
+    height: 350px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(154, 69, 79, 0.3);
+    border-radius: 10px;
+}
+.Persona{
+    border: 1px rgba(248, 139, 139, 0.378) solid;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(154, 69, 79, 0.3);
+    border-radius: 10px;
+    text-align: center;
+}
+.Person img{ 
+    padding-left: 20%;
+    width: 68%;
+    height: 68%;
+}
+#Personajes{
+    display: flex;
+    flex-flow: column;
+    background:linear-gradient(rgba(0, 0, 0, 0.75), rgba(34, 37, 41, 0.75)), url('/imagenes/fondo3.jpg') no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Stick No Bills', sans-serif;
+    display: flex;
+    align-content: center;
+    flex-flow: column;
+    font-size: calc(1rem);
+    color: rgb(165, 226, 244);
+
+}
+#Personajes h1{
+    padding-top: 5%;
+}
