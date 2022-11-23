@@ -136,7 +136,7 @@ main section{
 /*Todo galeria*/
 
 .body_galeria{
-    background:linear-gradient(rgba(0, 0, 0, 0.75), rgba(34, 37, 41, 0.75)), url('./imagenes/fondo2.jpg') no-repeat center;
+    background:linear-gradient(rgba(0, 0, 0, 0.75), rgba(34, 37, 41, 0.75)), url('../imagenes/fondo2.jpg') no-repeat center;
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Stick No Bills', sans-serif;
@@ -213,7 +213,7 @@ main section{
 #Personajes{
     display: flex;
     flex-flow: column;
-    background:linear-gradient(rgba(0, 0, 0, 0.75), rgba(34, 37, 41, 0.75)), url('./imagenes/fondo3.jpg') no-repeat center;
+    background:linear-gradient(rgba(0, 0, 0, 0.75), rgba(34, 37, 41, 0.75)), url('../imagenes/fondo3.jpg') no-repeat center;
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Stick No Bills', sans-serif;
